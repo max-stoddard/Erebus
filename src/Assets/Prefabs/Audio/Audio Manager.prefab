@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5471560664591649541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5471560664591649540}
+  - component: {fileID: 5471560664591649543}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5471560664591649540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5471560664591649541}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5471560664591649543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5471560664591649541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d53c1a107c9baf42ac922490d4050f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Master: {fileID: 0}
+  sounds:
+  - name: Coin
+    clips:
+    - {fileID: 8300000, guid: 20ea1b271072bfc4eb09730b1e65a31c, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    multipleSounds: 0
+  - name: Click
+    clips:
+    - {fileID: 8300000, guid: 07f0fec6ead7abd4e879c4bb305a3522, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    multipleSounds: 1
+  - name: Toggle
+    clips:
+    - {fileID: 8300000, guid: 133e52eb9566ab445adba32aea7f832f, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    multipleSounds: 1
+  - name: Gunfire
+    clips:
+    - {fileID: 8300000, guid: 2203773368e4340d98c114f55c2dd7fd, type: 3}
+    - {fileID: 8300000, guid: 4d6281aa604094f04839cffa502096c0, type: 3}
+    - {fileID: 8300000, guid: 0dbe91efb8ee94e6695ef0f552d202ce, type: 3}
+    - {fileID: 8300000, guid: b2d159f7e00d44d9bbc2d50a0c4fef59, type: 3}
+    source: {fileID: 0}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    multipleSounds: 1
+  - name: Reload Start
+    clips:
+    - {fileID: 8300000, guid: 968388d59b168344e93c86339b87a1f6, type: 3}
+    source: {fileID: 0}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    multipleSounds: 0
+  - name: Reload End
+    clips:
+    - {fileID: 8300000, guid: 9158afb6966d445db9caf1dccf7acbcc, type: 3}
+    source: {fileID: 0}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    multipleSounds: 0
+  - name: Enemy hit
+    clips:
+    - {fileID: 8300000, guid: 0980e66d228753043860ef96e889fdf1, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 0.7
+    loop: 0
+    multipleSounds: 0
+  - name: Player hit
+    clips:
+    - {fileID: 8300000, guid: 0623ca1ddc6222c4cb63430b812b05de, type: 3}
+    - {fileID: 8300000, guid: b88b86065b0950b4cb6cbc2f0f940b59, type: 3}
+    - {fileID: 8300000, guid: a948d3cb700dccb448bf2982f8c88701, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    multipleSounds: 0
+  - name: Zombie death
+    clips:
+    - {fileID: 8300000, guid: 00af87742af4e054bb2404449a3cf309, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 0.7
+    loop: 0
+    multipleSounds: 0
+  - name: Main Menu Music
+    clips:
+    - {fileID: 8300000, guid: 7b022d8203f1aa546b5b7f1ace1072bf, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    multipleSounds: 0
+  - name: Load In Music
+    clips:
+    - {fileID: 8300000, guid: 0fbd9f43d81d29e4fb0cf6850d1de979, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    multipleSounds: 0
+  - name: Main Music
+    clips:
+    - {fileID: 8300000, guid: 8d29a77bd18b2144f9bd88eda0de84b2, type: 3}
+    - {fileID: 8300000, guid: 30bc3371916a91b4285c575113f49fb8, type: 3}
+    - {fileID: 8300000, guid: 63fcc1b2cb720d64f9ee1e93bb87fd77, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    multipleSounds: 0
+  - name: Buy
+    clips:
+    - {fileID: 8300000, guid: d644a4e339902df43a049ed8d0c0f18c, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    multipleSounds: 1
+  - name: Dryfire
+    clips:
+    - {fileID: 8300000, guid: 854e86a43d1ec4a43a2fa539dc7716ad, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    multipleSounds: 0
+  - name: UpgradeDing
+    clips:
+    - {fileID: 8300000, guid: 64438f73b338dc347bfe42ce00ed6355, type: 3}
+    - {fileID: 8300000, guid: 3006cf45117d37447801bed454c70f2a, type: 3}
+    - {fileID: 8300000, guid: 6ea7e1ba6b8a0a642b491e80b1225081, type: 3}
+    - {fileID: 8300000, guid: 59d69584563919640b7b692ab3606fe2, type: 3}
+    - {fileID: 8300000, guid: 37cfece49701aa94d9fb877da1016107, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    multipleSounds: 0
+  - name: UpgradeComplete
+    clips:
+    - {fileID: 8300000, guid: 523a48c6eb8d34ecd9b9b560e084252c, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    multipleSounds: 0

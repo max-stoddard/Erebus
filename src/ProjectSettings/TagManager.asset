@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Structure
+  - Line
+  - Debug
+  - Enemy
+  - Input
+  - PlayerBarFill
+  - SpawnPoint
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Enemy
+  - Obstacles
+  - PlayerBarFill
+  - Post Processing
+  - Target
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Bottom
+    uniqueID: 516888201
+    locked: 0
+  - name: Background
+    uniqueID: 2988716547
+    locked: 0
+  - name: Obstacles
+    uniqueID: 1672385633
+    locked: 0
+  - name: Player
+    uniqueID: 1634335971
+    locked: 0
+  - name: Enemy
+    uniqueID: 2239096359
+    locked: 0
+  - name: Top
+    uniqueID: 3553341631
+    locked: 0

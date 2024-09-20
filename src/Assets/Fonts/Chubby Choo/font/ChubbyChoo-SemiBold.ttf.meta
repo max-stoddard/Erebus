@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: a886466e9fe85ec4bb437a8e4538bef2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Chubby Choo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5420616c432a4fb4ea16961ef3e7e7c7, type: 3}
+  - {fileID: 12800000, guid: 95c16cf7ff8fc0b45a8eb916e1c970c4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

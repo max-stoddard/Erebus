@@ -1,4 +1,4 @@
-This is a 2D, round-based, top-down shooter game developed by Max Stoddard over the course of 1.5 years.
+This is a 2D, round-based, top-down shooter game developed by Max Stoddard over the course of 1.5 years in 2023.
 
 Code written by Max can be found in src\Assets\Scripts\
 
